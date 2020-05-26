@@ -11,8 +11,8 @@ import com.telefonica.api.services.ServiceExample;
 @SpringBootApplication
 public class ServiceExampleApplication {
 
-//	@Autowired
-//	private ServiceExample serviceExample;
+	@Autowired
+	private ServiceExample serviceExample;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceExampleApplication.class, args);
